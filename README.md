@@ -37,6 +37,7 @@
 - Подобраны гиперпараметры для моделей **CatBoost и LightGBM**
 - Построены ансамблевые модели (**Stacking**), что позволило повысить качество модели до **ROC-AUC=0.6873** (baseline:** 0.6692**)
 - Проведена интерпретация модели с использованием **Permutation Importance и SHAP**
+
 В результате разработана модель кредитного скоринга, позволяющая прогнозировать вероятность дефолта клиента.
 
 **Tech Stack**: Python, Pandas, Polars, NumPy, Scikit-learn, seaborn, matplotlib, LightGBM, CatBoost, optuna, SHAP, scipy
